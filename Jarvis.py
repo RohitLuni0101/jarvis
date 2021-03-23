@@ -46,11 +46,11 @@ if __name__=="__main__":
 
             elif 'open github' in query:
                 speak("opening Github")
-                webbrowser.open('https://github.com/RohitLuni0101')
+                webbrowser.open('https://github.com')
 
             elif 'open mail' in query:
                 speak("opening Gmail")
-                webbrowser.open('https://mail.google.com/mail/u/0/#inbox')
+                webbrowser.open('https://mail.google.com')
 
             elif 'search' in query:
                 speak("Searching wikipedia....")
